@@ -11,17 +11,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120410144717) do
+ActiveRecord::Schema.define(:version => 20120410201243) do
 
   create_table "teams", :force => true do |t|
     t.string   "name"
     t.string   "nickname"
     t.string   "abbreviation"
-    t.string   "city"
+    t.string   "location"
     t.string   "conference"
     t.string   "division"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "teams", ["name"], :name => "index_teams_on_name", :unique => true
 
 end

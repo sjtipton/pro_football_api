@@ -3,10 +3,11 @@ class Team < ActiveRecord::Base
   attr_accessible :name,
                   :nickname, 
                   :abbreviation, 
-                  :city, 
+                  :location, 
                   :conference,
                   :division
 
-  validates :name, :nickname, :abbreviation, :city, :conference, :division,
+  validates :name, :nickname, :abbreviation, :location, :conference, :division,
             presence: true
+  validates :name, uniqueness: true
 end

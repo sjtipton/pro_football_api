@@ -4,7 +4,7 @@ FactoryGirl.define do
     name          "Carolina Panthers"
     nickname      "Panthers"
     abbreviation  "CAR"
-    city          "Charlotte"
+    location      "Charlotte"
     conference    "NFC"
     division      "South"
   end
