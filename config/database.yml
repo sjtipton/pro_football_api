@@ -3,21 +3,21 @@ development:
   encoding: unicode
   database: pro_football_api_development
   pool: 5
-  username: pro_football_api
-  password:
+  username: rails
+  password: marm0t
 
 test:
   adapter: postgresql
   encoding: unicode
   database: pro_football_api_test
   pool: 5
-  username: pro_football_api
-  password:
+  username: rails
+  password: marm0t
 
 production:
   adapter: postgresql
   encoding: unicode
   database: pro_football_api_production
   pool: 5
-  username: pro_football_api
-  password:
+  username: rails
+  password: marm0t
