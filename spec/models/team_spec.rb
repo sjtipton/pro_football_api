@@ -2,6 +2,10 @@ require 'spec_helper'
 
 describe Team do
 
+  before(:each) do
+    @attrs = FactoryGirl.attributes_for(:team)
+  end
+
   describe "attributes" do
 
     it { should respond_to(:name) }
@@ -14,7 +18,6 @@ describe Team do
     describe "accessibility" do
 
       before(:each) do
-        @attrs = FactoryGirl.attributes_for(:team)
         @team = Team.create(@attrs)
       end
 
@@ -72,5 +75,13 @@ describe Team do
     it { should validate_presence_of(:location) }
     it { should validate_presence_of(:conference) }
     it { should validate_presence_of(:division) }
+
+    context "with duplicate name" do
+
+      it "should not be valid" do
+        Team.create!(@attrs)
+        Team.new(@attrs).should_not be_valid
+      end
+    end
   end
 end
