@@ -48,6 +48,9 @@ ProFootballApi::Application.configure do
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false
 
+  # Devise mailer
+  config.action_mailer.default_url_options = { :host => 'pro-football-api.herokuapp.com' }
+
   # Enable threaded mode
   # config.threadsafe!
 
