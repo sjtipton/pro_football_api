@@ -8,6 +8,7 @@ gem 'yajl-ruby', require: 'yajl/json_gem'
 gem 'typhoeus'
 gem 'nokogiri'
 gem 'devise', '~> 1.4.7'
+gem 'slim-rails'
 
 group :assets do
   gem 'sass-rails',   '~> 3.1.5'
