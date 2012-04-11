@@ -11,11 +11,11 @@ describe TeamsController do
   	context "when valid" do
 
 	    it "recognizes and properly generates a route to teams#index when supplying: '/api/v1/teams'" do
-        { get: "/api/v1/teams" }.should route_to("teams#index")
+        { get: "/api/v1/teams" }.should route_to("teams#index", format: :json)
 	    end
 
 	    it "recognizes and properly generates a route to teams#show when supplying: '/api/v1/teams/:id'" do
-	      { get: "/api/v1/teams/#{@id}" }.should route_to("teams#show", id: "#{@id}")
+	      { get: "/api/v1/teams/#{@id}" }.should route_to("teams#show", id: "#{@id}", format: :json)
 	    end
 	  end
 

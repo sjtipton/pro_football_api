@@ -4,7 +4,7 @@ ProFootballApi::Application.routes.draw do
 
   scope path: "/api/v1" do
 	  resources :teams, only: [:index, :show],
-	  									 via: :get,
+									defaults: { format: :json },
 							 constraints: { id: /[0-9]+/ }
 		end
 end
