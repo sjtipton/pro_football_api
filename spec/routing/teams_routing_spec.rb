@@ -10,12 +10,12 @@ describe TeamsController do
 
   	context "when valid" do
 
-	    it "recognizes and properly generates a route to teams#index when supplying: '/teams'" do
-	      { get: "/teams" }.should route_to("teams#index")
+	    it "recognizes and properly generates a route to teams#index when supplying: '/api/v1/teams'" do
+        { get: "/api/v1/teams" }.should route_to("teams#index")
 	    end
 
-	    it "recognizes and properly generates a route to teams#show when supplying: '/teams/:id'" do
-	      { get: "/teams/#{@id}" }.should route_to("teams#show", id: "#{@id}")
+	    it "recognizes and properly generates a route to teams#show when supplying: '/api/v1/teams/:id'" do
+	      { get: "/api/v1/teams/#{@id}" }.should route_to("teams#show", id: "#{@id}")
 	    end
 	  end
 
@@ -23,8 +23,8 @@ describe TeamsController do
 
     	context "given a non-integer :id for an otherwise valid route" do
 
-    		it ":get '/teams/one' should not be routable" do
-    			{ get: "/teams/one" }.should_not be_routable
+    		it ":get '/api/v1/teams/one' should not be routable" do
+    			{ get: "/api/v1/teams/one" }.should_not be_routable
     		end
     	end
     end
