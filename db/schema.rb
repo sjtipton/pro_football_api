@@ -20,8 +20,8 @@ ActiveRecord::Schema.define(:version => 20120411022954) do
     t.string   "location"
     t.string   "conference"
     t.string   "division"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
   add_index "teams", ["name"], :name => "index_teams_on_name", :unique => true
@@ -40,8 +40,8 @@ ActiveRecord::Schema.define(:version => 20120411022954) do
     t.string   "confirmation_token"
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                                            :null => false
+    t.datetime "updated_at",                                            :null => false
   end
 
   add_index "users", ["authentication_token"], :name => "index_users_on_authentication_token", :unique => true
