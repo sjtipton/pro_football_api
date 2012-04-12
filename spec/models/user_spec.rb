@@ -63,7 +63,8 @@ describe User do
       end
 
     	it "should be present" do
-        @user.update_attributes(authentication_token: nil)
+        @user.authentication_token = nil
+        @user.save
         @user.authentication_token.should_not be_nil
       end
 
