@@ -11,7 +11,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120411022954) do
+ActiveRecord::Schema.define(:version => 20120413193840) do
+
+  create_table "games", :force => true do |t|
+    t.string   "label"
+    t.integer  "season"
+    t.string   "stadium"
+    t.integer  "week"
+    t.integer  "home_team_id"
+    t.integer  "away_team_id"
+    t.datetime "played_at"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
 
   create_table "teams", :force => true do |t|
     t.string   "name"
