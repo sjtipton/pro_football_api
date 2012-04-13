@@ -4,7 +4,7 @@ FactoryGirl.define do
     name          { Forgery.dictionaries[:team_names].sample }
     nickname      { name.split(' ').last }
     abbreviation  { Forgery.dictionaries[:team_abbreviations].sample }
-    location      { Forgery(:address).city }
+    location      { "#{Forgery(:address).city}, #{Forgery(:address).state_abbrev}" }
     conference    { %w(AFC NFC).sample }
     division      { %w(North South East West).sample }
   end
