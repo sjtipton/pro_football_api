@@ -16,7 +16,7 @@ namespace :db do
     desc "Build home games for each team, essentially wiring in all matchups"
     task :build_all_matchups => :environment do
 
-      json = File.open('home_team_opponents.json', 'rb') { |f| f.read }
+      json = File.open("#{Rails.root}/lib/tasks/home_team_opponents.json", 'rb') { |f| f.read }
 
       parsed = Yajl::Parser.parse(json, symbolize_keys: true)
 
