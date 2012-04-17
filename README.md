@@ -23,7 +23,7 @@ end
 @team_ids.each do |id|
   @games = Game.where("away_team_id = ? or home_team_id = ?", id, id)
   @games.each do |g|
-    ap g.label
+    ap "#{g.label}, #{g.stadium}"
   end
 end
 ```
