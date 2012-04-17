@@ -8,6 +8,6 @@ class Game < ActiveRecord::Base
                   :stadium,
                   :week
 
-  validates :away_team_id, :home_team_id, :label, :season, :stadium, :week,
+  validates :away_team_id, :home_team_id, :label, :season, :stadium,
             presence: true
 end
