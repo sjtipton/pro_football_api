@@ -30,6 +30,11 @@ Create a User with an API token for accessing the API
 u = User.new(email: "youremail@example.com")
 u.skip_confirmation!
 u.save
+
+u.authentication_token
+# => "your_api_token"
+
+# Use this token to access the API via the auth_token query param
 ```
 
 Run the rake task that will build 256 matchups (an undated schedule).
