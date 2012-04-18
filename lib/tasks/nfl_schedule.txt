@@ -1,6 +1,6 @@
 [
   { week: 1,
-    matches: { played_at: "2012-09-05 20:30:00",
+    matches: [{ played_at: "2012-09-05 20:30:00",
                labels: ["Cowboys at Giants"] },
              { played_at: "2012-09-09 13:00:00",
                labels: ["Colts at Bears",
@@ -21,10 +21,10 @@
              { played_at: "2012-09-10 19:00:00",
                labels: ["Bengals at Ravens"] },
              { played_at: "2012-09-10 22:15:00",
-               labels: ["Chargers at Raiders"] }
+               labels: ["Chargers at Raiders"] }]
   },
   { week: 2,
-    matches: { played_at: "2012-09-13 20:20:00",
+    matches: [{ played_at: "2012-09-13 20:20:00",
                labels: ["Bears at Packers"] },
              { played_at: "2012-09-16 13:00:00",
                labels: ["Buccaneers at Giants",
@@ -45,10 +45,10 @@
              { played_at: "2012-09-16 20:20:00",
                labels: ["Lions at 49ers"] },
              { played_at: "2012-09-17 20:30:00",
-               labels: ["Broncos at Falcons"] }
+               labels: ["Broncos at Falcons"] }]
   },
   { week: 3,
-    matches: { played_at: "2012-09-20 20:20:00",
+    matches: [{ played_at: "2012-09-20 20:20:00",
                labels: ["Giants at Panthers"] },
              { played_at: "2012-09-23 13:00:00",
                labels: ["Buccaneers at Cowboys",
@@ -69,10 +69,10 @@
              { played_at: "2012-09-23 20:20:00",
                labels: ["Patriots at Ravens"] },
              { played_at: "2012-09-24 20:30:00",
-               labels: ["Packers at Seahawks"] }
+               labels: ["Packers at Seahawks"] }]
   },
   { week: 4,
-    matches: { played_at: "2012-09-27 20:20:00",
+    matches: [{ played_at: "2012-09-27 20:20:00",
                labels: ["Browns at Ravens"] },
              { played_at: "2012-09-30 13:00:00",
                labels: ["Patriots at Bills",
@@ -92,10 +92,10 @@
              { played_at: "2012-09-30 20:20:00",
                labels: ["Giants at Eagles"] },
              { played_at: "2012-10-01 20:30:00",
-               labels: ["Bears at Cowboys"] }
+               labels: ["Bears at Cowboys"] }]
   },
   { week: 5,
-    matches: { played_at: "2012-10-04 20:20:00",
+    matches: [{ played_at: "2012-10-04 20:20:00",
                labels: ["Cardinals at Rams"] },
              { played_at: "2012-10-07 13:00:00",
                labels: ["Falcons at Redskins",
@@ -114,10 +114,10 @@
              { played_at: "2012-10-07 20:20:00",
                labels: ["Chargers at Saints"] },
              { played_at: "2012-10-08 20:30:00",
-               labels: ["Texans at Jets"] }
+               labels: ["Texans at Jets"] }]
   },
   { week: 6,
-    matches: { played_at: "2012-10-11 20:20:00",
+    matches: [{ played_at: "2012-10-11 20:20:00",
                labels: ["Steelers at Titans"] },
              { played_at: "2012-10-14 13:00:00",
                labels: ["Raiders at Falcons",
@@ -136,10 +136,10 @@
              { played_at: "2012-10-14 20:20:00",
                labels: ["Packers at Texans"] },
              { played_at: "2012-10-15 20:30:00",
-               labels: ["Broncos at Chargers"] }
+               labels: ["Broncos at Chargers"] }]
   },
   { week: 7,
-    matches: { played_at: "2012-10-18 20:20:00",
+    matches: [{ played_at: "2012-10-18 20:20:00",
                labels: ["Seahawks at 49ers"] },
              { played_at: "2012-10-21 13:00:00",
                labels: ["Redskins at Giants",
@@ -156,10 +156,10 @@
              { played_at: "2012-10-21 20:20:00",
                labels: ["Steelers at Bengals"] },
              { played_at: "2012-10-22 20:30:00",
-               labels: ["Lions at Bears"] }
+               labels: ["Lions at Bears"] }]
   },
   { week: 8,
-    matches: { played_at: "2012-10-25 20:20:00",
+    matches: [{ played_at: "2012-10-25 20:20:00",
                labels: ["Buccaneers at Vikings"] },
              { played_at: "2012-10-28 13:00:00",
                labels: ["Jaguars at Packers",
@@ -178,10 +178,10 @@
              { played_at: "2012-10-28 20:20:00",
                labels: ["Saints at Broncos"] },
              { played_at: "2012-10-29 20:30:00",
-               labels: ["49ers at Cardinals"] }
+               labels: ["49ers at Cardinals"] }]
   },
   { week: 9,
-    matches: { played_at: "2012-11-01 20:20:00",
+    matches: [{ played_at: "2012-11-01 20:20:00",
                labels: ["Chiefs at Chargers"] },
              { played_at: "2012-11-04 13:00:00",
                labels: ["Panthers at Redskins",
@@ -200,10 +200,10 @@
              { played_at: "2012-11-04 20:20:00",
                labels: ["Cowboys at Falcons"] },
              { played_at: "2012-11-05 20:30:00",
-               labels: ["Eagles at Saints"] }
+               labels: ["Eagles at Saints"] }]
   },
   { week: 10,
-    matches: { played_at: "2012-11-08 20:20:00",
+    matches: [{ played_at: "2012-11-08 20:20:00",
                labels: ["Colts at Jaguars"] },
              { played_at: "2012-11-11 13:00:00",
                labels: ["Broncos at Panthers",
@@ -222,10 +222,10 @@
              { played_at: "2012-11-11 20:20:00",
                labels: ["Texans at Bears"] },
              { played_at: "2012-11-12 20:30:00",
-               labels: ["Chiefs at Steelers"] }
+               labels: ["Chiefs at Steelers"] }]
   },
   { week: 11,
-    matches: { played_at: "2012-11-15 20:20:00",
+    matches: [{ played_at: "2012-11-15 20:20:00",
                labels: ["Dolphins at Bills"] },
              { played_at: "2012-11-18 13:00:00",
                labels: ["Eagles at Redskins",
@@ -244,10 +244,10 @@
              { played_at: "2012-11-18 20:20:00",
                labels: ["Ravens at Steelers"] },
              { played_at: "2012-11-19 20:30:00",
-               labels: ["Bears at 49ers"] }
+               labels: ["Bears at 49ers"] }]
   },
   { week: 12,
-    matches: { played_at: "2012-11-22 12:20:00",
+    matches: [{ played_at: "2012-11-22 12:20:00",
                labels: ["Texans at Lions"] },
              { played_at: "2012-11-22 16:15:00",
                labels: ["Redskins at Cowboys"] },
@@ -269,10 +269,10 @@
              { played_at: "2012-11-25 20:20:00",
                labels: ["Packers at Giants"] },
              { played_at: "2012-11-26 20:30:00",
-               labels: ["Panthers at Eagles"] }
+               labels: ["Panthers at Eagles"] }]
   },
   { week: 13,
-    matches: { played_at: "2012-11-29 20:20:00",
+    matches: [{ played_at: "2012-11-29 20:20:00",
                labels: ["Saints at Falcons"] },
              { played_at: "2012-12-02 13:00:00",
                labels: ["Seahawks at Bears",
@@ -292,10 +292,10 @@
              { played_at: "2012-12-02 20:20:00",
                labels: ["Eagles at Cowboys"] },
              { played_at: "2012-12-03 20:30:00",
-               labels: ["Giants at Redskins"] }
+               labels: ["Giants at Redskins"] }]
   },
   { week: 14,
-    matches: { played_at: "2012-12-06 20:20:00",
+    matches: [{ played_at: "2012-12-06 20:20:00",
                labels: ["Broncos at Raiders"] },
              { played_at: "2012-12-09 13:00:00",
                labels: ["Ravens at Redskins",
@@ -316,10 +316,10 @@
              { played_at: "2012-12-09 20:20:00",
                labels: ["Lions at Packers"] },
              { played_at: "2012-12-10 20:30:00",
-               labels: ["Texans at Patriots"] }
+               labels: ["Texans at Patriots"] }]
   },
   { week: 15,
-    matches: { played_at: "2012-12-13 20:20:00",
+    matches: [{ played_at: "2012-12-13 20:20:00",
                labels: ["Bengals at Eagles"] },
              { played_at: "2012-12-16 13:00:00",
                labels: ["Packers at Bears",
@@ -340,10 +340,10 @@
              { played_at: "2012-12-16 20:20:00",
                labels: ["49ers at Patriots"] },
              { played_at: "2012-12-17 20:30:00",
-               labels: ["Jets at Titans"] }
+               labels: ["Jets at Titans"] }]
   },
   { week: 16,
-    matches: { played_at: "2012-12-22 20:30:00",
+    matches: [{ played_at: "2012-12-22 20:30:00",
                labels: ["Falcons at Lions"] },
              { played_at: "2012-12-23 13:00:00",
                labels: ["Titans at Packers",
@@ -363,10 +363,10 @@
                labels: ["Bears at Cardinals",
                         "49ers at Seahawks"] },
              { played_at: "2012-12-23 20:20:00",
-               labels: ["Chargers at Jets"] }
+               labels: ["Chargers at Jets"] }]
   },
   { week: 17,
-    matches: { played_at: "2012-12-30 13:00:00",
+    matches: [{ played_at: "2012-12-30 13:00:00",
                labels: ["Jets at Bills",
                         "Dolphins at Patriots",
                         "Ravens at Bengals",
@@ -383,6 +383,6 @@
                labels: ["Chiefs at Broncos",
                         "Raiders at Chargers",
                         "Cardinals at 49ers",
-                        "Rams at Seahawks"] }
+                        "Rams at Seahawks"] }]
   }
 ]
