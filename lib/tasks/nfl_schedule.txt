@@ -1,45 +1,54 @@
-WEEK 1
-Sunday, Sept. 9
-Colts at Bears, 1 p.m. ET
-Jaguars at Vikings, 1 p.m. ET
-Bills at Jets, 1 p.m. ET
-Dolphins at Texans, 1 p.m. ET
-Patriots at Titans, 1 p.m. ET
-Rams at Lions, 1 p.m. ET
-Redskins at Saints, 1 p.m. ET
-Eagles at Browns, 1 p.m. ET
-Falcons at Chiefs, 1 p.m. ET
-49ers at Packers, 4:15 p.m. ET
-Seahawks at Cardinals, 4:15 p.m. ET
-Panthers at Buccaneers, 4:15 p.m. ET
-Steelers at Broncos, 4:15 p.m. ET
+[
+  { week: 1,
+    matches: { played_at: "2012-09-05 20:30:00",
+               labels: ["Cowboys at Giants"] },
+             { played_at: "2012-09-09 13:00:00",
+               labels: ["Colts at Bears",
+                        "Jaguars at Vikings",
+                        "Bills at Jets",
+                        "Dolphins at Texans",
+                        "Patriots at Titans",
+                        "Rams at Lions",
+                        "Redskins at Saints",
+                        "Eagles at Browns",
+                        "Falcons at Chiefs"] },
+             { played_at: "2012-09-09 16:15:00",
+               labels: ["49ers at Packers",
+                        "Seahawks at Cardinals",
+                        "Panthers at Buccaneers"] },
+             { played_at: "2012-09-09 20:20:00",
+               labels: ["Steelers at Broncos"] },
+             { played_at: "2012-09-10 19:00:00",
+               labels: ["Bengals at Ravens"] },
+             { played_at: "2012-09-10 22:15:00",
+               labels: ["Chargers at Raiders"] }
+  },
+  { week: 2,
+    matches: { played_at: "2012-09-13 20:20:00",
+               labels: ["Bears at Packers"] },
+             { played_at: "2012-09-16 13:00:00",
+               labels: ["Buccaneers at Giants",
+                        "Saints at Panthers",
+                        "Cardinals at Patriots",
+                        "Vikings at Colts",
+                        "Ravens at Eagles",
+                        "Chiefs at Bills",
+                        "Browns at Bengals",
+                        "Texans at Jaguars"] },
+             { played_at: "2012-09-16 16:05:00",
+               labels: ["Cowboys at Seahawks",
+                        "Redskins at Rams"] },
+             { played_at: "2012-09-16 16:15:00",
+               labels: ["Jets at Steelers",
+                        "Titans at Chargers",
+                        "Raiders at Dolphins"] },
+             { played_at: "2012-09-16 20:20:00",
+               labels: ["Lions at 49ers"] },
+             { played_at: "2012-09-17 20:30:00",
+               labels: ["Broncos at Falcons"] }
+  }
+]
 
-Monday, Sept. 10
-Bengals at Ravens, 7 p.m. ET
-Chargers at Raiders, 10:15 p.m. ET
-
-WEEK 2
-Thursday, Sept. 13
-Bears at Packers, 8:20 p.m. ET
-
-Sunday, Sept. 16
-Buccaneers at Giants, 1 p.m. ET
-Saints at Panthers, 1 p.m. ET
-Cardinals at Patriots, 1 p.m. ET
-Vikings at Colts, 1 p.m. ET
-Ravens at Eagles, 1 p.m. ET
-Chiefs at Bills, 1 p.m. ET
-Browns at Bengals, 1 p.m. ET
-Texans at Jaguars, 1 p.m. ET
-Cowboys at Seahawks, 4:05 p.m ET
-Redskins at Rams, 4:05 p.m. ET
-Jets at Steelers, 4:15 p.m. ET
-Titans at Chargers, 4:15 p.m. ET
-Raiders at Dolphins, 4:15 p.m. ET
-Lions at 49ers, 8:20 p.m. ET
-
-Monday, September 17
-Broncos at Falcons, 8:30 p.m. ET
 
 WEEK 3
 Thursday, Sept. 20
