@@ -46,327 +46,343 @@
                labels: ["Lions at 49ers"] },
              { played_at: "2012-09-17 20:30:00",
                labels: ["Broncos at Falcons"] }
+  },
+  { week: 3,
+    matches: { played_at: "2012-09-20 20:20:00",
+               labels: ["Giants at Panthers"] },
+             { played_at: "2012-09-23 13:00:00",
+               labels: ["Buccaneers at Cowboys",
+                        "Rams at Bears",
+                        "49ers at Vikings",
+                        "Lions at Titans",
+                        "Bengals at Redskins",
+                        "Chiefs at Saints",
+                        "Jets at Dolphins",
+                        "Bills at Browns",
+                        "Jaguars at Colts"] },
+             { played_at: "2012-09-23 16:05:00",
+               labels: ["Eagles at Cardinals",
+                        "Falcons at Chargers"] },
+             { played_at: "2012-09-23 16:15:00",
+               labels: ["Texans at Broncos",
+                        "Steelers at Raiders"] },
+             { played_at: "2012-09-23 20:20:00",
+               labels: ["Patriots at Ravens"] },
+             { played_at: "2012-09-24 20:30:00",
+               labels: ["Packers at Seahawks"] }
+  },
+  { week: 4,
+    matches: { played_at: "2012-09-27 20:20:00",
+               labels: ["Browns at Ravens"] },
+             { played_at: "2012-09-30 13:00:00",
+               labels: ["Patriots at Bills",
+                        "Titans at Texans",
+                        "Chargers at Chiefs",
+                        "Vikings at Lions",
+                        "Panthers at Falcons",
+                        "Seahawks at Rams",
+                        "49ers at Jets"] },
+             { played_at: "2012-09-30 16:05:00",
+               labels: ["Dolphins at Cardinals",
+                        "Raiders at Broncos",
+                        "Bengals at Jaguars",
+                        "Saints at Packers"] },
+             { played_at: "2012-09-30 16:15:00",
+               labels: ["Redskins at Buccaneers"] },
+             { played_at: "2012-09-30 20:20:00",
+               labels: ["Giants at Eagles"] },
+             { played_at: "2012-10-01 20:30:00",
+               labels: ["Bears at Cowboys"] }
+  },
+  { week: 5,
+    matches: { played_at: "2012-10-04 20:20:00",
+               labels: ["Cardinals at Rams"] },
+             { played_at: "2012-10-07 13:00:00",
+               labels: ["Falcons at Redskins",
+                        "Eagles at Steelers",
+                        "Packers at Colts",
+                        "Browns at Giants",
+                        "Titans at Vikings",
+                        "Dolphins at Bengals",
+                        "Ravens at Chiefs"] },
+             { played_at: "2012-10-07 16:05:00",
+               labels: ["Seahawks at Panthers",
+                        "Bears at Jaguars"] },
+             { played_at: "2012-10-07 16:15:00",
+               labels: ["Broncos at Patriots",
+                        "Bills at 49ers"] },
+             { played_at: "2012-10-07 20:20:00",
+               labels: ["Chargers at Saints"] },
+             { played_at: "2012-10-08 20:30:00",
+               labels: ["Texans at Jets"] }
+  },
+  { week: 6,
+    matches: { played_at: "2012-10-11 20:20:00",
+               labels: ["Steelers at Titans"] },
+             { played_at: "2012-10-14 13:00:00",
+               labels: ["Raiders at Falcons",
+                        "Chiefs at Buccaneers",
+                        "Colts at Jets",
+                        "Bengals at Browns",
+                        "Lions at Eagles",
+                        "Rams at Dolphins",
+                        "Cowboys at Ravens"] },
+             { played_at: "2012-10-14 16:05:00",
+               labels: ["Bills at Cardinals",
+                        "Patriots at Seahawks"] },
+             { played_at: "2012-10-14 16:15:00",
+               labels: ["Giants at 49ers",
+                        "Vikings at Redskins"] },
+             { played_at: "2012-10-14 20:20:00",
+               labels: ["Packers at Texans"] },
+             { played_at: "2012-10-15 20:30:00",
+               labels: ["Broncos at Chargers"] }
+  },
+  { week: 7,
+    matches: { played_at: "2012-10-18 20:20:00",
+               labels: ["Seahawks at 49ers"] },
+             { played_at: "2012-10-21 13:00:00",
+               labels: ["Redskins at Giants",
+                        "Cardinals at Vikings",
+                        "Cowboys at Panthers",
+                        "Saints at Buccaneers",
+                        "Packers at Rams",
+                        "Ravens at Texans",
+                        "Browns at Colts",
+                        "Titans at Bills"] },
+             { played_at: "2012-10-21 16:15:00",
+               labels: ["Jets at Patriots",
+                        "Jaguars at Raiders"] },
+             { played_at: "2012-10-21 20:20:00",
+               labels: ["Steelers at Bengals"] },
+             { played_at: "2012-10-22 20:30:00",
+               labels: ["Lions at Bears"] }
+  },
+  { week: 8,
+    matches: { played_at: "2012-10-25 20:20:00",
+               labels: ["Buccaneers at Vikings"] },
+             { played_at: "2012-10-28 13:00:00",
+               labels: ["Jaguars at Packers",
+                        "Dolphins at Jets",
+                        "Chargers at Browns",
+                        "Colts at Titans",
+                        "Patriots at Rams",
+                        "Falcons at Eagles",
+                        "Panthers at Bears",
+                        "Seahawks at Lions",
+                        "Redskins at Steelers"] },
+             { played_at: "2012-10-28 16:05:00",
+               labels: ["Raiders at Chiefs"] },
+             { played_at: "2012-10-28 16:15:00",
+               labels: ["Giants at Cowboys"] },
+             { played_at: "2012-10-28 20:20:00",
+               labels: ["Saints at Broncos"] },
+             { played_at: "2012-10-29 20:30:00",
+               labels: ["49ers at Cardinals"] }
+  },
+  { week: 9,
+    matches: { played_at: "2012-11-01 20:20:00",
+               labels: ["Chiefs at Chargers"] },
+             { played_at: "2012-11-04 13:00:00",
+               labels: ["Panthers at Redskins",
+                        "Cardinals at Packers",
+                        "Lions at Jaguars",
+                        "Bears at Titans",
+                        "Broncos at Bengals",
+                        "Ravens at Browns",
+                        "Bills at Texans",
+                        "Dolphins at Colts"] },
+             { played_at: "2012-11-04 16:05:00",
+               labels: ["Vikings at Seahawks",
+                        "Buccaneers at Raiders"] },
+             { played_at: "2012-11-04 16:15:00",
+               labels: ["Steelers at Giants"] },
+             { played_at: "2012-11-04 20:20:00",
+               labels: ["Cowboys at Falcons"] },
+             { played_at: "2012-11-05 20:30:00",
+               labels: ["Eagles at Saints"] }
+  },
+  { week: 10,
+    matches: { played_at: "2012-11-08 20:20:00",
+               labels: ["Colts at Jaguars"] },
+             { played_at: "2012-11-11 13:00:00",
+               labels: ["Broncos at Panthers",
+                        "Chargers at Buccaneers",
+                        "Titans at Dolphins",
+                        "Bills at Patriots",
+                        "Raiders at Ravens",
+                        "Giants at Bengals",
+                        "Falcons at Saints",
+                        "Lions at Vikings"] },
+             { played_at: "2012-11-11 16:05:00",
+               labels: ["Jets at Seahawks"] },
+             { played_at: "2012-11-11 16:15:00",
+               labels: ["Cowboys at Eagles",
+                        "Rams at 49ers"] },
+             { played_at: "2012-11-11 20:20:00",
+               labels: ["Texans at Bears"] },
+             { played_at: "2012-11-12 20:30:00",
+               labels: ["Chiefs at Steelers"] }
+  },
+  { week: 11,
+    matches: { played_at: "2012-11-15 20:20:00",
+               labels: ["Dolphins at Bills"] },
+             { played_at: "2012-11-18 13:00:00",
+               labels: ["Eagles at Redskins",
+                        "Packers at Lions",
+                        "Cardinals at Falcons",
+                        "Buccaneers at Panthers",
+                        "Browns at Cowboys",
+                        "Jets at Rams",
+                        "Colts at Patriots",
+                        "Jaguars at Texans",
+                        "Bengals at Chiefs"] },
+             { played_at: "2012-11-18 16:05:00",
+               labels: ["Saints at Raiders"] },
+             { played_at: "2012-11-18 16:15:00",
+               labels: ["Chargers at Broncos"] },
+             { played_at: "2012-11-18 20:20:00",
+               labels: ["Ravens at Steelers"] },
+             { played_at: "2012-11-19 20:30:00",
+               labels: ["Bears at 49ers"] }
+  },
+  { week: 12,
+    matches: { played_at: "2012-11-22 12:20:00",
+               labels: ["Texans at Lions"] },
+             { played_at: "2012-11-22 16:15:00",
+               labels: ["Redskins at Cowboys"] },
+             { played_at: "2012-11-22 20:20:00",
+               labels: ["Patriots at Jets"] },
+             { played_at: "2012-11-25 13:00:00",
+               labels: ["Raiders at Bengals",
+                        "Steelers at Browns",
+                        "Bills at Colts",
+                        "Titans at Jaguars",
+                        "Broncos at Chiefs",
+                        "Vikings at Bears",
+                        "Falcons at Buccaneers",
+                        "Seahawks at Dolphins"] },
+             { played_at: "2012-11-25 16:05:00",
+               labels: ["Raiders at Chargers"] },
+             { played_at: "2012-11-25 16:15:00",
+               labels: ["49ers at Saints"] },
+             { played_at: "2012-11-25 20:20:00",
+               labels: ["Packers at Giants"] },
+             { played_at: "2012-11-26 20:30:00",
+               labels: ["Panthers at Eagles"] }
+  },
+  { week: 13,
+    matches: { played_at: "2012-11-29 20:20:00",
+               labels: ["Saints at Falcons"] },
+             { played_at: "2012-12-02 13:00:00",
+               labels: ["Seahawks at Bears",
+                        "Vikings at Packers",
+                        "49ers at Rams",
+                        "Cardinals at Jets",
+                        "Panthers at Chiefs",
+                        "Colts at Lions",
+                        "Jaguars at Bills",
+                        "Patriots at Dolphins",
+                        "Texans at Titans"] },
+             { played_at: "2012-12-02 16:05:00",
+               labels: ["Buccaneers at Broncos"] },
+             { played_at: "2012-12-02 16:15:00",
+               labels: ["Steelers at Ravens",
+                        "Bengals at Chargers"] },
+             { played_at: "2012-12-02 20:20:00",
+               labels: ["Eagles at Cowboys"] },
+             { played_at: "2012-12-03 20:30:00",
+               labels: ["Giants at Redskins"] }
+  },
+  { week: 14,
+    matches: { played_at: "2012-12-06 20:20:00",
+               labels: ["Broncos at Raiders"] },
+             { played_at: "2012-12-09 13:00:00",
+               labels: ["Ravens at Redskins",
+                        "Chiefs at Browns",
+                        "Chargers at Steelers",
+                        "Titans at Colts",
+                        "Jets at Jaguars",
+                        "Bears at Vikings",
+                        "Falcons at Panthers",
+                        "Eagles at Buccaneers",
+                        "Rams at Bills",
+                        "Cowboys at Bengals"] },
+             { played_at: "2012-12-09 16:05:00",
+               labels: ["Dolphins at 49ers"] },
+             { played_at: "2012-12-09 16:15:00",
+               labels: ["Saints at Giants",
+                        "Cardinals at Seahawks"] },
+             { played_at: "2012-12-09 20:20:00",
+               labels: ["Lions at Packers"] },
+             { played_at: "2012-12-10 20:30:00",
+               labels: ["Texans at Patriots"] }
+  },
+  { week: 15,
+    matches: { played_at: "2012-12-13 20:20:00",
+               labels: ["Bengals at Eagles"] },
+             { played_at: "2012-12-16 13:00:00",
+               labels: ["Packers at Bears",
+                        "Giants at Falcons",
+                        "Buccaneers at Saints",
+                        "Vikings at Rams",
+                        "Redskins at Browns",
+                        "Jaguars at Dolphins",
+                        "Broncos at Ravens",
+                        "Colts at Texans"] },
+             { played_at: "2012-12-16 16:05:00",
+               labels: ["Lions at Cardinals",
+                        "Panthers at Chargers",
+                        "Seahawks at Bills"] },
+             { played_at: "2012-12-16 16:15:00",
+               labels: ["Steelers at Cowboys",
+                        "Chiefs at Raiders"] },
+             { played_at: "2012-12-16 20:20:00",
+               labels: ["49ers at Patriots"] },
+             { played_at: "2012-12-17 20:30:00",
+               labels: ["Jets at Titans"] }
+  },
+  { week: 16,
+    matches: { played_at: "2012-12-22 20:30:00",
+               labels: ["Falcons at Lions"] },
+             { played_at: "2012-12-23 13:00:00",
+               labels: ["Titans at Packers",
+                        "Raiders at Panthers",
+                        "Bills at Dolphins",
+                        "Bengals at Steelers",
+                        "Patriots at Jaguars",
+                        "Colts at Chiefs",
+                        "Saints at Cowboys",
+                        "Redskins at Eagles",
+                        "Rams at Buccaneers",
+                        "Giants at Ravens",
+                        "Vikings at Texans"] },
+             { played_at: "2012-12-23 16:05:00",
+               labels: ["Browns at Broncos"] },
+             { played_at: "2012-12-23 16:15:00",
+               labels: ["Bears at Cardinals",
+                        "49ers at Seahawks"] },
+             { played_at: "2012-12-23 20:20:00",
+               labels: ["Chargers at Jets"] }
+  },
+  { week: 17,
+    matches: { played_at: "2012-12-30 13:00:00",
+               labels: ["Jets at Bills",
+                        "Dolphins at Patriots",
+                        "Ravens at Bengals",
+                        "Browns at Steelers",
+                        "Texans at Colts",
+                        "Jaguars at Titans",
+                        "Eagles at Giants",
+                        "Cowboys at Redskins",
+                        "Bears at Lions",
+                        "Packers at Vikings",
+                        "Buccaneers at Falcons",
+                        "Panthers at Saints"] },
+             { played_at: "2012-12-23 16:15:00",
+               labels: ["Chiefs at Broncos",
+                        "Raiders at Chargers",
+                        "Cardinals at 49ers",
+                        "Rams at Seahawks"] }
   }
 ]
-
-
-WEEK 3
-Thursday, Sept. 20
-Giants at Panthers, 8:20 p.m. ET
-
-Sunday, Sept. 23
-Buccaneers at Cowboys, 1 p.m. ET
-Rams at Bears, 1 p.m. ET
-49ers at Vikings, 1 p.m. ET
-Lions at Titans, 1 p.m. ET
-Bengals at Redskins, 1 p.m. ET
-Chiefs at Saints, 1 p.m. ET
-Jets at Dolphins, 1 p.m. ET
-Bills at Browns, 1 p.m. ET
-Jaguars at Colts, 1 p.m. ET
-Eagles at Cardinals, 4:05 p.m. ET
-Falcons at Chargers, 4:05 p.m. ET
-Texans at Broncos, 4:15 p.m. ET
-Steelers at Raiders, 4:15 p.m. ET
-Patriots at Ravens, 8:20 p.m. ET
-
-Monday, Sept. 24
-Packers at Seahawks, 8:30 p.m. ET
-
-WEEK 4
-Thursday, Sept. 27
-Browns at Ravens, 8:30 p.m. ET
-
-Sunday, Sept. 30
-Patriots at Bills, 1 p.m. ET
-Titans at Texans, 1 p.m. ET
-Chargers at Chiefs, 1 p.m. ET
-Vikings at Lions, 1 p.m. ET
-Panthers at Falcons, 1 p.m. ET
-Seahawks at Rams, 1 p.m. ET
-49ers at Jets, 1 p.m. ET
-Dolphins at Cardinals, 4:05 p.m. ET
-Raiders at Broncos, 4:05 p.m. ET
-Bengals at Jaguars, 4:05 p.m. ET
-Saints at Packers, 4:05 p.m. ET
-Redskins at Buccaneers, 4:15 p.m. ET
-Giants at Eagles, 8:20 p.m. ET
-
-Monday, Oct. 1
-Bears at Cowboys, 8:30 p.m. ET
-
-WEEK 5
-Thursday, Oct. 4
-Cardinals at Rams, 8:20 p.m. ET
-
-Sunday, Oct. 7
-Falcons at Redskins, 1 p.m. ET
-Eagles at Steelers, 1 p.m. ET
-Packers at Colts, 1 p.m. ET
-Browns at Giants, 1 p.m. ET
-Titans at Vikings, 1 p.m. ET
-Dolphins at Bengals, 1 p.m. ET
-Ravens at Chiefs, 1 p.m. ET
-Seahawks at Panthers, 4:05 p.m. ET
-Bears at Jaguars, 4:05 p.m. ET
-Broncos at Patriots, 4:15 p.m. ET
-Bills at 49ers, 4:15 p.m. ET
-Chargers at Saints, 8:20 p.m. ET
-
-Monday, Oct. 8
-Texans at Jets, 8:30 p.m. ET
-
-WEEK 6
-Thursday, Oct. 11
-Steelers at Titans, 5:20 p.m. ET
-
-Sunday, Oct. 14
-Raiders at Falcons, 1:00 p.m. ET
-Chiefs at Buccaneers, 1:00 p.m. ET
-Colts at Jets, 1:00 p.m. ET
-Bengals at Browns, 1:00 p.m. ET
-Lions at Eagles, 1:00 p.m. ET
-Rams at Dolphins, 1:00 p.m. ET
-Cowboys at Ravens, 1:00 p.m. ET
-Bills at Cardinals, 4:05 p.m. ET
-Patriots at Seahawks, 4:05 p.m. ET
-Giants at 49ers, 4:15 p.m. ET
-Vikings at Redskins, 4:15 p.m. ET
-Packers at Texans, 8:20 p.m. ET
-
-Monday, Oct. 15
-Broncos at Chargers, 8:30 p.m. ET
-
-WEEK 7
-Thursday, Oct. 18
-Seahawks at 49ers, 5:20 p.m. ET
-
-Sunday, Oct. 21
-Redskins at Giants, 1:00 p.m. ET
-Cardinals at Vikings, 1:00 p.m. ET
-Cowboys at Panthers, 1:00 p.m. ET
-Saints at Buccaneers, 1:00 p.m. ET
-Packers at Rams, 1:00 p.m. ET
-Ravens at Texans, 1:00 p.m. ET
-Browns at Colts, 1:00 p.m. ET
-Titans at Bills, 1:00 p.m. ET
-Jets at Patriots, 4:15 p.m. ET
-Jaguars at Raiders, 4:15 p.m. ET
-Steelers at Bengals, 8:20 p.m. ET
-
-Monday, Oct. 22
-Lions at Bears, 8:30 p.m. ET
-
-WEEK 8
-Thursday, Oct. 25
-Buccaneers at Vikings, 5:20 p.m. ET
-
-Sunday, Oct. 28
-Jaguars at Packers, 1:00 p.m. ET
-Dolphins at Jets, 1:00 p.m. ET
-Chargers at Browns, 1:00 p.m. ET
-Colts at Titans, 1:00 p.m. ET
-Patriots at Rams, 1:00 p.m. ET
-Falcons at Eagles, 1:00 p.m. ET
-Panthers at Bears, 1:00 p.m. ET
-Seahawks at Lions, 1:00 p.m. ET
-Redskins at Steelers, 1:00 p.m. ET
-Raiders at Chiefs, 4:05 p.m. ET
-Giants at Cowboys, 4:15 p.m. ET
-Saints at Broncos, 8:20 p.m. ET
-
-Monday, Oct. 29
-49ers at Cardinals, 8:30 p.m. ET
-
-WEEK 9
-Thursday, Nov. 1
-Chiefs at Chargers, 5:20 p.m. ET
-
-Sunday, Nov. 4
-Panthers at Redskins, 1:00 p.m. ET
-Cardinals at Packers, 1:00 p.m. ET
-Lions at Jaguars, 1:00 p.m. ET
-Bears at Titans, 1:00 p.m. ET
-Broncos at Bengals, 1:00 p.m. ET
-Ravens at Browns, 1:00 p.m. ET
-Bills at Texans, 1:00 p.m. ET
-Dolphins at Colts, 1:00 p.m. ET
-Vikings at Seahawks, 4:05 p.m. ET
-Buccaneers at Raiders, 4:05 p.m. ET
-Steelers at Giants, 4:15 p.m. ET
-Cowboys at Falcons, 8:20 p.m. ET
-
-Monday, Nov. 5
-Eagles at Saints, 8:30 p.m. ET
-
-WEEK 10
-Thursday, Nov. 8
-Colts at Jaguars, 5:20 p.m. ET
-
-Sunday, Nov. 11
-Broncos at Panthers, 1:00 p.m. ET
-Chargers at Buccaneers, 1:00 p.m. ET
-Titans at Dolphins, 1:00 p.m. ET
-Bills at Patriots, 1:00 p.m. ET
-Raiders at Ravens, 1:00 p.m. ET
-Giants at Bengals, 1:00 p.m. ET
-Falcons at Saints, 1:00 p.m. ET
-Lions at Vikings, 1:00 p.m. ET
-Jets at Seahawks, 4:05 p.m. ET
-Cowboys at Eagles, 4:15 p.m. ET
-Rams at 49ers, 4:15 p.m. ET
-Texans at Bears, 8:20 p.m. ET
-
-Monday, Nov. 12
-Chiefs at Steelers, 8:30 p.m. ET
-
-WEEK 11
-Thursday, Nov. 15
-Dolphins at Bills, 5:20 p.m. ET
-
-Sunday, Nov. 28
-Eagles at Redskins, 1 p.m. ET
-Packers at Lions, 1 p.m. ET
-Cardinals at Falcons, 1 p.m. ET
-Buccaneers at Panthers, 1 p.m. ET
-Browns at Cowboys, 1 p.m. ET
-Jets at Rams, 1 p.m. ET
-Colts at Patriots, 1 p.m. ET
-Jaguars at Texans, 1 p.m. ET
-Bengals at Chiefs, 1 p.m. ET
-Saints at Raiders, 4:05 p.m. ET
-Chargers at Broncos, 4:15 p.m. ET
-Ravens at Steelers, 8:20 p.m.
-
-Monday, Nov 19
-Bears at 49ers, 8:30 p.m.
-
-WEEK 12
-Thursday, Nov. 22
-Texans at Lions, 12:20 p.m. ET
-Redskins at Cowboys, 4:15 p.m. ET
-Patriots at Jets, 8:20 p.m. ET
-
-Sunday, Nov. 25
-Raiders at Bengals, 1 p.m. ET
-Steelers at Browns, 1 p.m. ET
-Bills at Colts, 1 p.m. ET
-Titans at Jaguars, 1 p.m. ET
-Broncos at Chiefs, 1 p.m. ET
-Vikings at Bears, 1 p.m. ET
-Falcons at Buccaneers, 1 p.m. ET
-Seahawks at Dolphins, 1 p.m. ET
-Raiders at Chargers, 4:05 p.m. ET
-49ers at Saints, 4:15 p.m. ET
-Packers at Giants, 8:20 p.m.
-
-Monday, Nov. 26
-Panthers at Eagles, 8:30 p.m. ET
-
-WEEK 13
-Thursday, Nov. 29
-Saints at Falcons, 8:20 p.m.
-
-Sunday, Dec. 2
-Seahawks at Bears, 1 p.m. ET
-Vikings at Packers, 1 p.m. ET
-49ers at Rams, 1 p.m. ET
-Cardinals at Jets, 1 p.m. ET
-Panthers at Chiefs, 1 p.m. ET
-Colts at Lions, 1 p.m. ET
-Jaguars at Bills, 1 p.m. ET
-Patriots at Dolphins, 1 p.m. ET
-Texans at Titans, 1 p.m. ET
-Buccaneers at Broncos, 4:05 p.m. ET
-Steelers at Ravens, 4:15 p.m. ET
-Bengals at Chargers, 4:15 p.m. ET
-
-Monday, Dec. 3
-Giants at Redskins, 8:30 p.m. ET
-
-WEEK 14
-Thursday, Dec. 6
-Broncos at Raiders, 8:20 p.m ET
-
-Sunday, Dec. 9
-Ravens at Redskins, 1:00 p.m. ET
-Chiefs at Browns, 1:00 p.m. ET
-Chargers at Steelers, 1:00 p.m. ET
-Titans at Colts, 1:00 p.m. ET
-Jets at Jaguars, 1:00 p.m. ET
-Bears at Vikings, 1:00 p.m. ET
-Falcons at Panthers, 1:00 p.m. ET
-Eagles at Buccaneers, 1:00 p.m. ET
-Rams at Bills, 1:00 p.m. ET
-Cowboys at Bengals, 1:00 p.m. ET
-Dolphins at 49ers, 4:05 p.m. ET
-Saints at Giants, 4:15 p.m. ET
-Cardinals at Seahawks, 4:15 p.m. ET
-Lions at Packers, 8:20 p.m. ET
-
-Monday, Dec. 10
-Texans at Patriots, 8:30 p.m. ET
-
-WEEK 15
-Thursday, Dec. 13
-Bengals at Eagles, 8:20 p.m. ET
-
-Sunday, Dec. 16
-Packers at Bears, 1:00 p.m. ET
-Giants at Falcons, 1:00 p.m. ET
-Buccaneers at Saints, 1:00 p.m. ET
-Vikings at Rams, 1:00 p.m. ET
-Redskins at Browns, 1:00 p.m. ET
-Jaguars at Dolphins, 1:00 p.m. ET
-Broncos at Ravens, 1:00 p.m. ET
-Colts at Texans, 1:00 p.m. ET
-Lions at Cardinals, 4:05 p.m. ET
-Panthers at Chargers, 4:05 p.m. ET
-Seahawks at Bills, 4:05 p.m. ET
-Steelers at Cowboys, 4:15 p.m. ET
-Chiefs at Raiders, 4:15 p.m. ET
-49ers at Patriots, 8:20 p.m. ET
-
-Monday, Dec. 17
-Jets at Titans, 8:30 p.m. ET
-
-WEEK 16
-Saturday, Dec. 22
-Falcons at Lions, 8:30 p.m. ET
-
-Sunday, Dec. 23
-Titans at Packers, 1:00 p.m. ET
-Raiders at Panthers, 1:00 p.m. ET
-Bills at Dolphins, 1:00 p.m. ET
-Bengals at Steelers, 1:00 p.m. ET
-Patriots at Jaguars, 1:00 p.m. ET
-Colts at Chiefs, 1:00 p.m. ET
-Saints at Cowboys, 1:00 p.m. ET
-Redskins at Eagles, 1:00 p.m. ET
-Rams at Buccaneers, 1:00 p.m. ET
-Giants at Ravens, 1:00 p.m. ET
-Vikings at Texans, 1:00 p.m. ET
-Browns at Broncos, 4:05 p.m. ET
-Bears at Cardinals, 4:15 p.m. ET
-49ers at Seahawks, 4:15 p.m. ET
-Chargers at Jets, 8:20 p.m. ET
-
-WEEK 17
-
-Sunday Dec. 30
-Jets at Bills, 1:00 p.m. ET
-Dolphins at Patriots, 1:00 p.m. ET
-Ravens at Bengals, 1:00 p.m. ET
-Browns at Steelers, 1:00 p.m. ET
-Texans at Colts, 1:00 p.m. ET
-Jaguars at Titans, 1:00 p.m. ET
-Eagles at Giants, 1:00 p.m. ET
-Cowboys at Redskins, 1:00 p.m. ET
-Bears at Lions, 1:00 p.m. ET
-Packers at Vikings, 1:00 p.m. ET
-Buccaneers at Falcons, 1:00 p.m. ET
-Panthers at Saints, 1:00 p.m. ET
-Chiefs at Broncos, 4:15 p.m. ET
-Raiders at Chargers, 4:15 p.m. ET
-Cardinals at Rams, 4:15 p.m. ET
-Rams at Seahawks, 4:15 p.m. ET
