@@ -1,0 +1,1 @@
+attributes :id, :label, :season, :stadium, :week, :home_team_id, :away_team_id, :played_at
