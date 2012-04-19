@@ -16,10 +16,10 @@ FactoryGirl.define do
   end
 
   factory :game do
-    label         { "#{Forgery.dictionaries[:team_abbreviations].sample} at #{Forgery.dictionaries[:team_abbreviations].sample}" }
+    label         { "#{Forgery.dictionaries[:team_names].sample.split(' ').last} at #{Forgery.dictionaries[:team_names].sample.split(' ').last}" }
     season        { Forgery(:date).year }
-    stadium       { "#{Forgery.dictionaries[:team_names].sample.split(' ').last} #{%w(Field Stadium).sample}" }
-    week          { (1..17).to_a.sample }
+    stadium       { "#{Forgery.dictionaries[:team_names].sample.split(' ').last} #{%w(Field Stadium Park Dome Coliseum).sample}" }
+    week          nil
     home_team_id  SecureRandom.random_number(1e2.to_i)
     away_team_id  SecureRandom.random_number(1e2.to_i)
     played_at     nil
