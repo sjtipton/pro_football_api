@@ -5,7 +5,8 @@ describe TeamGamesController do
 
 	before(:each) do
 		@teams = []
-		2.times { @teams << FactoryGirl.create(:team) }
+		@teams << FactoryGirl.create(:team, name: "Carolina Panthers")
+    @teams << FactoryGirl.create(:team, name: "Seattle Seahawks")
 		@game = FactoryGirl.create(:game, home_team_id: @teams.first.id,
 																			away_team_id: @teams.second.id)
 	end
