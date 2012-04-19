@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe User do
 
-	before(:each) do
+  before(:each) do
     @attrs = FactoryGirl.attributes_for(:user)
   end
 
@@ -15,7 +15,7 @@ describe User do
 
     describe "accessibility" do
 
-    	before(:each) do
+      before(:each) do
         @user = User.create(@attrs)
       end
 
@@ -58,11 +58,11 @@ describe User do
 
     describe "authentication_token" do
 
-    	before(:each) do
+      before(:each) do
         @user = User.create(@attrs)
       end
 
-    	it "should be present" do
+      it "should be present" do
         @user.authentication_token = nil
         @user.save
         @user.authentication_token.should_not be_nil
@@ -75,7 +75,7 @@ describe User do
 
     describe "password_confirmation" do
 
-    	it "should be present" do
+      it "should be present" do
         @user = User.create(@attrs.merge(password_confirmation: ""))
         @user.should_not be_valid
       end
@@ -90,16 +90,16 @@ describe User do
 
     context "with non-matching password" do
 
-    	it "should not be valid" do
-    		User.create(@attrs.merge(password: "aaaa"))
-    	end
+      it "should not be valid" do
+        User.create(@attrs.merge(password: "aaaa"))
+      end
     end
 
     context "with non-matching password_confirmation" do
 
-    	it "should not be valid" do
-    		User.create(@attrs.merge(password_confirmation: "aaaa"))
-    	end
+      it "should not be valid" do
+        User.create(@attrs.merge(password_confirmation: "aaaa"))
+      end
     end
   end
 end
