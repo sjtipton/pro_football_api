@@ -10,6 +10,7 @@ namespace :db do
                                           label: "#{opponent.nickname} at #{@team.nickname}",
                                          season: season,
                                         stadium: stadium)
+        ap "Created '#{opponent.nickname} at #{@team.nickname}' matchup for the #{season} season"
       end
     end
 
