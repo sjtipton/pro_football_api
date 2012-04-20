@@ -10,4 +10,5 @@ class Team < ActiveRecord::Base
   validates :name, :nickname, :abbreviation, :location, :conference, :division,
             presence: true
   validates :name, uniqueness: true
+
 end
