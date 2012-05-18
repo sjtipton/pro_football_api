@@ -9,6 +9,7 @@ gem 'typhoeus'
 gem 'nokogiri'
 gem 'devise', '~> 1.4.7'
 gem 'slim-rails'
+gem 'awesome_print', require: 'ap'
 
 group :assets do
   gem 'sass-rails', "~> 3.2.3"
@@ -25,7 +26,6 @@ group :development, :test do
   gem 'factory_girl_rails', '~> 1.3.0'
   gem 'faker'
   gem 'interactive_editor'
-  gem 'awesome_print'
   gem 'heroku'
   gem 'capybara'
   gem 'launchy'
