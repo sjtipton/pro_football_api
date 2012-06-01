@@ -142,7 +142,7 @@ describe "Games feature", type: :request do
       end
 
       it "response should contain 'played_at' node with proper value" do
-        @body["played_at"].should eq @game.played_at
+        @body["played_at"].should eq @game.played_at.as_json
       end
     end
   end
